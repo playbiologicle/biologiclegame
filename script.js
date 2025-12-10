@@ -300,7 +300,6 @@
     if (guess === solution) {
       // Win
       setTimeout(() => {
-        alert("You won!");
         endGame();
       }, 50);
       return;
@@ -311,7 +310,6 @@
 
     if (currentRow >= MAX_ATTEMPTS) {
       setTimeout(() => {
-        alert(`Game over! The word was ${solution.toUpperCase()}`);
         endGame();
       }, 50);
     }
