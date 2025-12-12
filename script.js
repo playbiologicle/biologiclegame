@@ -24,7 +24,11 @@
     "helicase","lipase","esophagus","liver","pancreas","kidney","muscles","femur",
     "delts","biceps","triceps","quadriceps","hamstring","tendons","diaphragm",
     "neurons","clade","protozoa","biomass","directional","stabilizing","disruptive",
-    "natural", "heterozygous","homozygous"
+    "natural", "heterozygous","homozygous","cyclid","mutualism","commensalism",
+    "chloroplast","chlorophyll","stomata","xylem","phloem","pcr","aves","skeleton",
+    "thorax","exoskeleton","codons","pathogen","homeostasis","autotroph","heterotroph",
+    "polymerase","plasmid","zygote","hormone","capillary","adrenaline","karyotype",
+    "ligase","plasmid"
   ].map(s => s.toLowerCase());
 
   const MAX_ATTEMPTS = 6;
